@@ -15,6 +15,7 @@ Projects and informations related to Device Drivers
 - my_custome_driver will be in /proc/modules
 - use cc test_chr_drv.c -o test_chr_drv
 - sudo ./test_chr_drv
+- container_of_macro is a proof of concept so build it normally with gcc command
 
 ##In-tree building
 - If you want to add the linux module inside the linux kernel source tree and let the linux build system builds that. If you want to list your kernel module selection in kernel menuconfig,then create and use a Kconfig file.
